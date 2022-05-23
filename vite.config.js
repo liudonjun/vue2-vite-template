@@ -5,6 +5,18 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [createVuePlugin()],
+  // 打包配置
+  build: {
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        // 移除console
+        drop_console: true,
+        // 移除debugger
+        drop_debugger: true
+      }
+    }
+  },
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'), // 设置 `@` 指向 `src` 目录

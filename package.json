@@ -5,6 +5,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "test": "vite --mode test",
     "build": "npm run lint && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js --ext .vue src/"
@@ -24,10 +25,10 @@
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^8.0.1",
     "vite": "^2.9.9",
-    "vite-plugin-vue2": "^2.0.1"
+    "vite-plugin-vue2": "^2.0.1",
+    "commitizen": "4.2.4"
   },
   "dependencies": {
-    "commitizen": "4.2.4",
     "vue": "^2.6.14",
     "vue-template-compiler": "^2.6.14"
   }
