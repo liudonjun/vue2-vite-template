@@ -2,6 +2,7 @@
   <div>
     <h2>Hello Vite Vue2</h2>
     <MyChild />
+    <router-view /></router-view>
     <div>{{ data }}</div>
   </div>
 </template>

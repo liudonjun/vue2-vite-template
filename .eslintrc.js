@@ -4,6 +4,8 @@ module.exports = {
     postMessage: true
   },
   rules: {
-    'space-before-function-paren': 'off'
+    'space-before-function-paren': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/no-parsing-error': 'off'
   }
 }
