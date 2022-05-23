@@ -22,7 +22,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'), // 设置 `@` 指向 `src` 目录
       '@api': resolve(__dirname, 'src/api'),
       '@comp': resolve(__dirname, 'src/components'),
-      '@util': resolve(__dirname, 'src/utils'),
+      '@utils': resolve(__dirname, 'src/utils'),
       '@sty': resolve(__dirname, 'src/style')
     }
   },

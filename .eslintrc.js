@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'standard',
+  extends: ['standard', 'plugin:vue/recommended'],
   globals: {
     postMessage: true
   },
